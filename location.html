@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Address</title>
+</head>
+<body>
+    <h1>Location</h1>
+    <button onclick="refreshPage()">Refresh</button>
+    <button onclick="visitPh()">visit</button>
+    
+
+    <script>
+        const refreshPage = () => {
+            location.reload();
+        }
+
+        const visitPh = () => {
+            location.assign('https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API');
+            
+        }
+
+        //location.search
+        //location.hash
+
+    </script>
+</body>
+</html>
